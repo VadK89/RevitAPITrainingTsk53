@@ -22,7 +22,7 @@ namespace RevitAPITrainingTsk53
 
         public Result OnStartup(UIControlledApplication application)
         {
-            // имя вкладки   вревит
+            // имя вкладки   в ревит
             string tabName = "revit API Training Task5.3";
             // создание вкладки
             application.CreateRibbonTab(tabName);
@@ -38,10 +38,10 @@ namespace RevitAPITrainingTsk53
 
             //Создание кнопки
 
-            var button1 = new PushButtonData("Система", "Кнопки со свойствами",
-                Path.Combine(utilsFolderPath, "RevitAPITrainingTSk51.dll"),
-                "RevitAPITrainingTSk51.Main");
-            var button2 = new PushButtonData("Система", "Смена типов стен",
+            var button1 = new PushButtonData("Система1", "Кнопки со свойствами",
+                Path.Combine(utilsFolderPath, "RevitAPITrainingTsk51.dll"),
+                "RevitAPITrainingTsk51.Main");
+            var button2 = new PushButtonData("Система2", "Смена типов стен",
                 Path.Combine(utilsFolderPath, "RevitAPITrainingTSk52.dll"),
                 "RevitAPITrainingTSk52.Main");
 
